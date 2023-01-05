@@ -6,3 +6,7 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Tue Jan 03 10:32:35.546287 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.52 (Debian) PHP/7.3.33 configured -- resuming normal operations
 [Tue Jan 03 10:32:35.546366 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Tue Jan 03 10:35:08.548237 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.144.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Jan 05 02:01:36.384045 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.52 (Debian) PHP/7.3.33 configured -- resuming normal operations
+[Thu Jan 05 02:01:36.384084 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Jan 05 04:40:52.908628 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully

