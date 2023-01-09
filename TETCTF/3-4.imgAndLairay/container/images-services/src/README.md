@@ -4,7 +4,7 @@ python3 serverExploit.py
 
 # Step 2: Start ngrok
 
-ngrok http 8081
+ngrok http 8000
 
 # Step 3: Run exploit code
 
