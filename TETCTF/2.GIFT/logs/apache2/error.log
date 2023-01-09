@@ -10,3 +10,70 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Thu Jan 05 02:01:36.384045 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.52 (Debian) PHP/7.3.33 configured -- resuming normal operations
 [Thu Jan 05 02:01:36.384084 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 [Thu Jan 05 04:40:52.908628 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.144.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Jan 05 09:54:28.401569 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.52 (Debian) PHP/7.3.33 configured -- resuming normal operations
+[Thu Jan 05 09:54:28.401980 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Jan 05 10:02:24.796467 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.144.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Jan 06 08:49:28.574421 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.52 (Debian) PHP/7.3.33 configured -- resuming normal operations
+[Fri Jan 06 08:49:28.574451 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+ls: cannot access '/flag': No such file or directory
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: ls+/: not found
+sh: 1: ls+/: not found
+sh: 1: ls+/: not found
+sh: 1: ls+/: not found
+sh: 1: ls+/: not found
+sh: 1: ls+/: not found
+sh: 1: ls+/: not found
+sh: 1: ls+/: not found
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.144.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Jan 09 01:27:33.620859 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.52 (Debian) PHP/7.3.33 configured -- resuming normal operations
+[Mon Jan 09 01:27:33.620906 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+sh: 1: í³†whoami: not found
+sh: 1: í³†whoami: not found
+sh: 1: í³†whoami: not found
+sh: 1: í³†whoami: not found
+sh: 1: í³†whoami: not found
+sh: 1: í³†whoami: not found
+sh: 1: í³†whoami: not found
+sh: 1: í³†whoami: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+sh: 1: whoamin: not found
+TERM environment variable not set.
+TERM environment variable not set.
+TERM environment variable not set.
+TERM environment variable not set.
+TERM environment variable not set.
+TERM environment variable not set.
+TERM environment variable not set.
+TERM environment variable not set.
+[Mon Jan 09 02:50:52.591446 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully

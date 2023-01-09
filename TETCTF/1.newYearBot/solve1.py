@@ -1,6 +1,6 @@
 import requests
 
-url = "http://172.27.166.125:5000/"
+url = "http://localhost:5000/"
 chars = ""
 index = [
     '0', 

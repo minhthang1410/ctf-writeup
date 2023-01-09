@@ -1,10 +1,6 @@
 from flask import Flask, request
 import re, random, os
-import socket
 
-s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-s.connect(("8.8.8.8", 80))
-local_ip = s.getsockname()[0]
 app = Flask(__name__)
 FL4G = "TetCTF{JuSt_F0rFunn(^^}"
 fail = "???<br><img src='https://i.imgur.com/mUfnGmL.png' width='20%' />"
@@ -107,4 +103,4 @@ def greeting():
 
 # Main
 if __name__ == '__main__':
-	app.run(debug=True, host=local_ip)
+	app.run(debug=True)
